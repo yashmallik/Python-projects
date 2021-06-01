@@ -1,7 +1,7 @@
 fhand = open(input("Enter file name: "))
 day = dict()
 for line in fhand:
-    words = line.split()
+    words = line.split("")
     if len(words) < 3 or words[0] != 'From':
         continue
     else:
