@@ -12,6 +12,6 @@ elif x > 0 and y < 0 :
 elif x == 0 and y == 0 :
     print ("You are at the point of origin")
 elif x == 0 :
-    print("You are at X point")
+    print("You are at X axis")
 elif y == 0 :
-    print ("You are at Y point")
+    print ("You are at Y axis")
