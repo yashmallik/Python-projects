@@ -13,5 +13,5 @@ while True :
             print ("This trangle does not exists")
             break
     except :
-        print ("Please enter numeric value")
+        print ("Please enter correct numeric value")
         continue
