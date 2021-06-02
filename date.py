@@ -2,3 +2,4 @@
 # 1600 is a leap year, but 1700, 1800 and 1900 aren't leap years
 import calendar
 print(calendar.calendar(2020))
+print(calendar.isleap(2020))
