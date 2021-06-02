@@ -1,5 +1,5 @@
 try:
-    a = int(input("Please enter the number: "))    
+    a = float(input("Please enter the number: "))    
     if a < 0 :
         print ("Negative")
     else :
