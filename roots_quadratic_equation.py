@@ -16,4 +16,5 @@ try :
     else :
         print("there is no real root")
 except :
+    print("---------WRONG DATA----------")
     print("Enter numeric value")
