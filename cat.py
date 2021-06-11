@@ -10,4 +10,4 @@ for line in fhand:
         else:
             day[words[2]] +=1
 print(day)
-hey jas
+print(day)
