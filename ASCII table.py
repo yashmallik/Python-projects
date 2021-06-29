@@ -4,3 +4,4 @@ for i in range(32, 128) :
     if (i-1)% 10 == 0 :
         print()
 print()
+print("ASCII Table")
