@@ -1,0 +1,19 @@
+def isValid(self, s: str) -> bool:
+    stack = []
+    strs = "{(["
+    if s[0] not in strs:
+        return False
+    for i in s:
+        if i in strs:
+            stack.append(i)
+        elif i in '}])' and len(stack) != 0:
+            j = stack.pop()
+            if (j == '(' and i == ')') or (j == "[" and i == "]") or (j == "{" and i == "}"):
+                continue
+
+            else:
+                return False
+        else:
+            return False
+
+    return len(stack) == 0
